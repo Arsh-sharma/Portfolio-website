@@ -1,0 +1,178 @@
+
+*{
+  font-family: 'Bacasime Antique', serif;
+  /* color: darkgrey; */
+}
+
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+.Skills {
+  /* width: 80%; */
+  /* margin: 0 auto; Center-align the container */
+  /* width: 87%; */
+  
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.progress-bar.progress-bar-striped {
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 1rem 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.py-5{
+  padding-left: 70px;
+  /* margin: auto;
+  width: 50%; */
+}
+
+/* .img-fluid{
+  padding-left: 200px;
+  border-radius: 10px;
+} */
+
+.self-img {
+  padding-left: 200px;
+  border-radius: 10px; /* Add rounded edges to the container */
+  overflow: hidden; /* Clip the image within the container */
+}
+
+.class1{
+  background-color:aliceblue;
+  /* padding: 50px; */
+}
+
+.class2{
+  background-color: aliceblue;
+}
+
+.class3{
+  background-color: aliceblue;
+}
+
+.class4{
+  background-color: aliceblue;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+/* *, ::after, ::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --swiper-theme-color: #007aff;
+} */
+
+.container, .container-fluid {
+  /* padding-left: 60px;
+  padding-right: 60px; */
+  /* margin-left: 0;
+  margin-right: 0; */
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+/* html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+
+[data-aos][data-aos][data-aos-easing=ease-in-out], body[data-aos-easing=ease-in-out] [data-aos] {
+  transition-timing-function: ease-in-out;
+} */
+
+/* .resume{
+  width: 87%;
+  margin-left: 110px;
+} */
+
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
+
+.contact {
+  /* padding-bottom: 130px; */
+  /* background-color: aliceblue; */
+}
+
+/* @media (max-width: 1199px){
+  .container, .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+} */
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.contact .info {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
